@@ -20,4 +20,4 @@
 
 ## Detalles menores
 
-- La consigna pide reutilizar el `formatearCaso` de la sesión 1, que tenía el formato `#1 - Login válido (alta) - Pendiente`. Acá el formato cambió a `[ID: 1]: ... | Prioridad: Alta | Estado: ...`. No está mal, pero conviene mantener el mismo formato entre sesiones.
+- Al repositorio le falta el setup del entorno: no tiene `package.json` (con las dependencias `typescript` y `tsx`) ni `tsconfig.json`. Sin ellos, `npx tsc --noEmit` no puede chequear los tipos del proyecto. Te los agrego yo directamente en el repo, así quedan igual que en el resto de los compañeros.
